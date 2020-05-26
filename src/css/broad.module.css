@@ -1,0 +1,32 @@
+.services {
+  background: var(--mainGrey);
+  padding: 4rem 0;
+}
+.center {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 1rem;
+}
+.service {
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  transition: var(--mainTransition);
+
+  margin: 1rem;
+  text-align: center;
+}
+
+.service:hover {
+  box-shadow: var(--lightShadow);
+}
+
+.service span {
+  /* padding: 0.5rem; */
+  display: inline-block;
+  font-size: 1rem;
+  /* margin-bottom: 1.5rem; */
+}
+.service h1 {
+  text-transform: uppercase;
+}
