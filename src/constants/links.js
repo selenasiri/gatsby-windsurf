@@ -1,12 +1,12 @@
 export default [
   {
-    path: '/',
-    text: 'home',
+    path: "/",
+    text: "home",
   },
-  {
-    path: '/directors',
-    text: 'directors',
-  },
+  // {
+  //   path: '/directors',
+  //   text: 'directors',
+  // },
   // {
   //   path: '/sites',
   //   text: 'sites',
