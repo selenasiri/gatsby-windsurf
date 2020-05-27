@@ -37,6 +37,11 @@ export default [
   // },
 
   {
+    path: "/news-letters",
+    text: "news letters",
+  },
+
+  {
     path: "/sponsors",
     text: "sponsors",
   },
