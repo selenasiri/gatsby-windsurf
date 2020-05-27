@@ -36,8 +36,8 @@ export default [
   //   text: 'contact',
   // },
 
-  // {
-  //   path: '/sponsors',
-  //   text: 'sponsors',
-  // },
+  {
+    path: "/sponsors",
+    text: "sponsors",
+  },
 ]

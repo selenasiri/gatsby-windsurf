@@ -40,7 +40,12 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-
+    {
+      resolve: `gatsby-transformer-screenshot`,
+      options: {
+        nodeTypes: [`SponsorsYaml`],
+      },
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
