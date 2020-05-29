@@ -4,16 +4,16 @@ import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 import SEO from "../components/SEO"
 import Title from "../components/Title"
-import Newsletters from "../components/Newsletters/Newsletters"
+import Videos from "../components/Videos/Videos"
 
-const NewslettersPage = ({ data }) => {
+const VideosPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="News Letters" />
+      <SEO title="Videos" />
       <StyledHero img={data.defaultBcg.childImageSharp.fluid}></StyledHero>
-      <Title title="News" subtitle="Letters" />
+      <Title title="Our" subtitle="Videos" />
 
-      <Newsletters />
+      <Videos />
     </Layout>
   )
 }
@@ -29,4 +29,4 @@ export const query = graphql`
     }
   }
 `
-export default NewslettersPage
+export default VideosPage
