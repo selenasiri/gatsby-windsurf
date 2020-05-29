@@ -5,7 +5,7 @@ import Image from "gatsby-image"
 const Newsletter = ({ newsLetter }) => {
   const { title, url, imageUrl } = newsLetter
   return (
-    <article className={styles.director}>
+    <article className={styles.blog}>
       <div className={styles.imgContainer}>
         <Image
           fixed={imageUrl.childImageSharp.fixed}
